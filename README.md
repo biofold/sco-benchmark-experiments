@@ -1,6 +1,6 @@
-# **FAIRification of the Single Cell Omics Benchmark Datasets **
+# **FAIRification of the Single Cell Omics Benchmark Datasets** 
 
-## ** ELIXIR Single Cell Omics Benchmark Dataset 1 (GSE243665) **
+## **ELIXIR Single Cell Omics Benchmark Dataset 1 (GSE243665)** 
 
 ### **Executive Summary**
 
