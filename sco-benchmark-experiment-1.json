@@ -1,0 +1,590 @@
+{
+  "study": [
+    {
+      "Study ID": "GSE243665",
+      "Title": "A single cell RNAseq benchmark experiment embedding 'controlled' cancer heterogeneity",
+      "Description": "This dataset provides single-cell transcriptomic profiles of seven lung cancer cell lines characterized by the expression of seven different driver genes (EGFR, ALK, MET, ERBB2, KRAS, BRAF, ROS1), leading to partially overlapping functional pathways. Additionally, PBMC from a healthy donor were also sequenced. The BE1 dataset serves as a controlled heterogeneous environment for the development and validation of methodologies for analysing cancer heterogeneity by means of scRNA-seq. BE1 includes scRNAseq for lung cancer cell lines with known driver mutations: PC9 (EGFR Del19, 4492 cells), A549 (KRAS p.G12S, 6898 cells), NCI-H596 (HTB178, MET Del14, 2965 cells), NCI-H1395 (CRL5868, BRAF p.G469A, 2673 cells), DV90 (ERBB2 p.V842I, 2998 cells), HCC78 (SLC34A2-ROS1 Fusion, 2748 cells), CCL.185.IG (EML4-ALK Fusion in A549 isogenic background, 6354 cells), and PBMCs from healthy donor. Total of 29,528 cells sequenced. Public release date: December 2, 2023.",
+      "Bibliographic Citation": "Arigoni M, Ratto ML, Riccardo F, Balmas E et al. A single cell RNAseq benchmark experiment embedding 'controlled' cancer heterogeneity. Sci Data 2024 Feb 2;11(1):159. PMID: 38307867; doi: 10.1038/s41597-024-03002-8",
+      "Created": "2023-12-02",
+      "Workflow (optional)": "10X Genomics Chromium Next GEM Single Cell 3' Kit v3.1 with Cell Multiplexing (CellPlex)",
+      "Technology": "10X Genomics",
+      "Licence (optional)": "CC BY 4.0"
+    }
+  ],
+  
+  "person": [
+    {
+      "Study ID": "GSE243665",
+      "Orcid ID (optional)": "",
+      "First Name": "Raffaele A.",
+      "Last Name": "Calogero",
+      "Email Address (optional)": "raffaele.calogero@unito.it",
+      "Affiliation or Institution": "University of Torino, Molecular Biotechnology Center, Bioinformatics and Genomics Unit, Via Nizza 52, Torino, 10126, Italy",
+      "Funder (optional)": "ELIXIR; CN00000013 'National Centre for HPC, Big Data and Quantum Computing'",
+      "Grant Award (optional)": "ELIXIR Single Cell Omics Community Implementation Study (SCONE)"
+    }
+  ],
+  
+  "sample": [
+    {
+      "Study ID": "GSE243665",
+      "Sample ID": "BE1_PC9",
+      "Scientific Name or Organism (optional)": "Homo sapiens",
+      "Taxon ID": "9606",
+      "Biosample Accession": "Cell line: PC9 (Creative Bioarray CSC-C4619); EGFR Del19 activating mutation; PMID: 21167064"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Sample ID": "BE1_A549",
+      "Scientific Name or Organism (optional)": "Homo sapiens",
+      "Taxon ID": "9606",
+      "Biosample Accession": "Cell line: A549 (ATCC-CCL-185); KRAS p.G12S mutation; PMID: 20358631"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Sample ID": "BE1_NCI-H596",
+      "Scientific Name or Organism (optional)": "Homo sapiens",
+      "Taxon ID": "9606",
+      "Biosample Accession": "Cell line: NCI-H596 (ATCC-HTB-178); MET Del14 mutation; PMID: 35636967"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Sample ID": "BE1_NCI-H1395",
+      "Scientific Name or Organism (optional)": "Homo sapiens",
+      "Taxon ID": "9606",
+      "Biosample Accession": "Cell line: NCI-H1395 (ATCC-CRL-5868); BRAF p.G469A gain of function mutation; PMID: 32540409"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Sample ID": "BE1_DV90",
+      "Scientific Name or Organism (optional)": "Homo sapiens",
+      "Taxon ID": "9606",
+      "Biosample Accession": "Cell line: DV90 (DSMZ ACC 307); ERBB2 p.V842I mutation increasing kinase activity; PMID: 23220880"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Sample ID": "BE1_HCC78",
+      "Scientific Name or Organism (optional)": "Homo sapiens",
+      "Taxon ID": "9606",
+      "Biosample Accession": "Cell line: HCC78 (DSMZ ACC 563); SLC34A2-ROS1 Fusion; PMID: 22919003"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Sample ID": "BE1_CCL185-IG",
+      "Scientific Name or Organism (optional)": "Homo sapiens",
+      "Taxon ID": "9606",
+      "Biosample Accession": "Cell line: CCL-185-IG (ATCC-CCL-185-IG); EML4-ALK Fusion (EML4 exon13; ALK exon20) in A549 isogenic background; https://www.atcc.org/products/ccl-185ig"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Sample ID": "BE1_PBMC",
+      "Scientific Name or Organism (optional)": "Homo sapiens",
+      "Taxon ID": "9606",
+      "Biosample Accession": "White blood cells from donor buffy coat (PBMC); healthy donor"
+    }
+  ],
+  
+  "geo_samples": [
+    {
+      "Study ID": "GSE243665",
+      "GEO Sample Accession": "GSM7793690",
+      "Sample Description": "gene expression library 1"
+    },
+    {
+      "Study ID": "GSE243665",
+      "GEO Sample Accession": "GSM7793691",
+      "Sample Description": "gene expression library 2"
+    },
+    {
+      "Study ID": "GSE243665",
+      "GEO Sample Accession": "GSM7793692",
+      "Sample Description": "gene expression library 3"
+    },
+    {
+      "Study ID": "GSE243665",
+      "GEO Sample Accession": "GSM7793693",
+      "Sample Description": "gene expression library 4"
+    },
+    {
+      "Study ID": "GSE243665",
+      "GEO Sample Accession": "GSM7793694",
+      "Sample Description": "cell multiplexing library 1"
+    },
+    {
+      "Study ID": "GSE243665",
+      "GEO Sample Accession": "GSM7793695",
+      "Sample Description": "cell multiplexing library 2"
+    },
+    {
+      "Study ID": "GSE243665",
+      "GEO Sample Accession": "GSM7793696",
+      "Sample Description": "cell multiplexing library 3"
+    },
+    {
+      "Study ID": "GSE243665",
+      "GEO Sample Accession": "GSM7793697",
+      "Sample Description": "cell multiplexing library 4"
+    }
+  ],
+  
+  "dissociation": [
+    {
+      "Study ID": "GSE243665",
+      "Dissociation Protocol ID": "DISSOC_10X_V3.1_CELLPLEX",
+      "Protocol Name": "10X Genomics Chromium Next GEM Single Cell 3' v3.1 with CellPlex Multiplexing",
+      "Dissociation Description": "Cell lines were cultured as per manufacturer recommendations. PC9, A549, NCI-H596, NCI-H1395, DV90, HCC78, CCL.185.IG, and PBMCs from healthy donor were processed. Cells were washed, incubated with Cell Multiplexing Oligos, and assessed for viability (>80%) before loading on Chromium Next GEM chip G.",
+      "Enrichment Markers (optional)": "None for cell lines; PBMCs processed without enrichment",
+      "Isolation Kit (optional)": "10X Genomics Chromium Next GEM Single Cell 3' Kit v3.1",
+      "Literature Source Reference (optional)": "10X Genomics documentation",
+      "Protocols IO Reference (optional)": "",
+      "Workflowhub Sop Reference (optional)": "",
+      "Dissociation Protocol Method (optional)": "Cell multiplexing with lipid-tagged oligonucleotides",
+      "Single Cell Quality Metric (optional)": "Cell viability >80%"
+    }
+  ],
+  
+  "cell_suspension": [
+    {
+      "Study ID": "GSE243665",
+      "Cell Suspension ID": "CELLSUSP_PC9",
+      "Sample ID": "BE1_PC9",
+      "Dissociation Protocol ID": "DISSOC_10X_V3.1_CELLPLEX",
+      "Suspension Type": "Cell",
+      "Cell Count (optional)": "4492",
+      "Cell Viability (optional)": ">80",
+      "Cell Viability Assessment Method (optional)": "Automated cell counter",
+      "Cell Size (optional)": "",
+      "Suspension Volume (µL) (optional)": "",
+      "Suspension Concentration Cells Per µL (optional)": "",
+      "Suspension Dilution (optional)": "",
+      "Loading Volume Μl (optional)": "",
+      "Suspension Dilution Buffer (optional)": "PBS"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Cell Suspension ID": "CELLSUSP_A549",
+      "Sample ID": "BE1_A549",
+      "Dissociation Protocol ID": "DISSOC_10X_V3.1_CELLPLEX",
+      "Suspension Type": "Cell",
+      "Cell Count (optional)": "6898",
+      "Cell Viability (optional)": ">80",
+      "Cell Viability Assessment Method (optional)": "Automated cell counter",
+      "Cell Size (optional)": "",
+      "Suspension Volume (µL) (optional)": "",
+      "Suspension Concentration Cells Per µL (optional)": "",
+      "Suspension Dilution (optional)": "",
+      "Loading Volume Μl (optional)": "",
+      "Suspension Dilution Buffer (optional)": "PBS"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Cell Suspension ID": "CELLSUSP_NCI-H596",
+      "Sample ID": "BE1_NCI-H596",
+      "Dissociation Protocol ID": "DISSOC_10X_V3.1_CELLPLEX",
+      "Suspension Type": "Cell",
+      "Cell Count (optional)": "2965",
+      "Cell Viability (optional)": ">80",
+      "Cell Viability Assessment Method (optional)": "Automated cell counter",
+      "Cell Size (optional)": "",
+      "Suspension Volume (µL) (optional)": "",
+      "Suspension Concentration Cells Per µL (optional)": "",
+      "Suspension Dilution (optional)": "",
+      "Loading Volume Μl (optional)": "",
+      "Suspension Dilution Buffer (optional)": "PBS"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Cell Suspension ID": "CELLSUSP_NCI-H1395",
+      "Sample ID": "BE1_NCI-H1395",
+      "Dissociation Protocol ID": "DISSOC_10X_V3.1_CELLPLEX",
+      "Suspension Type": "Cell",
+      "Cell Count (optional)": "2673",
+      "Cell Viability (optional)": ">80",
+      "Cell Viability Assessment Method (optional)": "Automated cell counter",
+      "Cell Size (optional)": "",
+      "Suspension Volume (µL) (optional)": "",
+      "Suspension Concentration Cells Per µL (optional)": "",
+      "Suspension Dilution (optional)": "",
+      "Loading Volume Μl (optional)": "",
+      "Suspension Dilution Buffer (optional)": "PBS"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Cell Suspension ID": "CELLSUSP_DV90",
+      "Sample ID": "BE1_DV90",
+      "Dissociation Protocol ID": "DISSOC_10X_V3.1_CELLPLEX",
+      "Suspension Type": "Cell",
+      "Cell Count (optional)": "2998",
+      "Cell Viability (optional)": ">80",
+      "Cell Viability Assessment Method (optional)": "Automated cell counter",
+      "Cell Size (optional)": "",
+      "Suspension Volume (µL) (optional)": "",
+      "Suspension Concentration Cells Per µL (optional)": "",
+      "Suspension Dilution (optional)": "",
+      "Loading Volume Μl (optional)": "",
+      "Suspension Dilution Buffer (optional)": "PBS"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Cell Suspension ID": "CELLSUSP_HCC78",
+      "Sample ID": "BE1_HCC78",
+      "Dissociation Protocol ID": "DISSOC_10X_V3.1_CELLPLEX",
+      "Suspension Type": "Cell",
+      "Cell Count (optional)": "2748",
+      "Cell Viability (optional)": ">80",
+      "Cell Viability Assessment Method (optional)": "Automated cell counter",
+      "Cell Size (optional)": "",
+      "Suspension Volume (µL) (optional)": "",
+      "Suspension Concentration Cells Per µL (optional)": "",
+      "Suspension Dilution (optional)": "",
+      "Loading Volume Μl (optional)": "",
+      "Suspension Dilution Buffer (optional)": "PBS"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Cell Suspension ID": "CELLSUSP_CCL185-IG",
+      "Sample ID": "BE1_CCL185-IG",
+      "Dissociation Protocol ID": "DISSOC_10X_V3.1_CELLPLEX",
+      "Suspension Type": "Cell",
+      "Cell Count (optional)": "6354",
+      "Cell Viability (optional)": ">80",
+      "Cell Viability Assessment Method (optional)": "Automated cell counter",
+      "Cell Size (optional)": "",
+      "Suspension Volume (µL) (optional)": "",
+      "Suspension Concentration Cells Per µL (optional)": "",
+      "Suspension Dilution (optional)": "",
+      "Loading Volume Μl (optional)": "",
+      "Suspension Dilution Buffer (optional)": "PBS"
+    },
+    {
+      "Study ID": "GSE243665",
+      "Cell Suspension ID": "CELLSUSP_PBMC",
+      "Sample ID": "BE1_PBMC",
+      "Dissociation Protocol ID": "DISSOC_10X_V3.1_CELLPLEX",
+      "Suspension Type": "Cell",
+      "Cell Count (optional)": "~500",
+      "Cell Viability (optional)": ">80",
+      "Cell Viability Assessment Method (optional)": "Automated cell counter",
+      "Cell Size (optional)": "",
+      "Suspension Volume (µL) (optional)": "",
+      "Suspension Concentration Cells Per µL (optional)": "",
+      "Suspension Dilution (optional)": "",
+      "Loading Volume Μl (optional)": "",
+      "Suspension Dilution Buffer (optional)": "PBS"
+    }
+  ],
+  
+  "lib_prep": [
+    {
+      "Study ID": "GSE243665",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Cell Suspension ID": "CELLSUSP_PC9, CELLSUSP_A549, CELLSUSP_NCI-H596, CELLSUSP_NCI-H1395, CELLSUSP_DV90, CELLSUSP_HCC78, CELLSUSP_CCL185-IG, CELLSUSP_PBMC",
+      "Library Preparation Kit": "10X Genomics Chromium Next GEM Single Cell 3' Kit v3.1",
+      "Library Preparation Kit Version": "3.1",
+      "Amplification Method (optional)": "PCR",
+      "cDNA Amplification Cycles (optional)": "",
+      "Average Size Distribution (optional)": "",
+      "Library Construction Method (optional)": "10X Genomics 3' v3.1",
+      "Input Molecule (optional)": "RNA",
+      "Primer (optional)": "Oligo-dT",
+      "Primeness": "3",
+      "End Bias (optional)": "3",
+      "Library Strand (optional)": "Antisense",
+      "Spike In": "No",
+      "Spike Type (optional)": "",
+      "Spike In Dilution Or Concentration (optional)": "",
+      "i5 Index": "Sample-specific",
+      "i7 Index": "Sample-specific",
+      "Dual or Single Index": "Dual",
+      "I5 Sequence": "Configuration in multi_gex.csv",
+      "i7 Sequence": "Configuration in multi_gex.csv",
+      "Plate ID (optional)": "",
+      "Well Row (optional)": "",
+      "Well Column (optional)": "",
+      "Cell Phenotype (optional)": "Lung cancer cell lines with driver mutations plus healthy PBMCs",
+      "Design description (optional)": "10X Genomics 3' CellPlex protocol",
+      "Library selection": "cDNA",
+      "Library source": "TRANSCRIPTOMIC",
+      "Library strategy": "RNA-Seq"
+    }
+  ],
+  
+  "sequencing": [
+    {
+      "Study ID": "GSE243665",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "Sequencing Platform Name": "ILLUMINA",
+      "Sequencing Instrument Model": "Illumina NovaSeq 6000",
+      "Library Layout": "Paired",
+      "UMI Barcode Read (optional)": "Read 1",
+      "UMI Barcode Offset (optional)": "16",
+      "UMI Barcode Size (optional)": "10",
+      "Cell Barcode Read (optional)": "Read 1",
+      "Cell Barcode Offset (optional)": "0",
+      "Cell Barcode Size (optional)": "16",
+      "cDNA Read": "Read 2",
+      "cDNA Read Offset (optional)": "0",
+      "cDNA Read Size (optional)": "150"
+    }
+  ],
+  
+  "file": [
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_A549_barcodes.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "Read 1 File": "",
+      "Read 2 File (optional)": "",
+      "Index 1 File (optional)": "",
+      "Index 2 File (optional)": "",
+      "Read 1 Checksum": "",
+      "Read 2 Checksum (optional)": "",
+      "White List Barcode File (optional)": "",
+      "File Description": "Cell barcodes for A549 sample",
+      "File Size": "30.7 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793690/supply/GSE243665_A549_barcodes.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_A549_features.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Gene features for A549 sample",
+      "File Size": "326.9 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793690/supply/GSE243665_A549_features.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_A549_matrix.mtx.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Count matrix for A549 sample (Market Exchange Format)",
+      "File Size": "59.7 Mb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793690/supply/GSE243665_A549_matrix.mtx.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_CCL-185-IG_barcodes.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Cell barcodes for CCL-185-IG sample",
+      "File Size": "29.9 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793691/supply/GSE243665_CCL-185-IG_barcodes.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_CCL-185-IG_features.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Gene features for CCL-185-IG sample",
+      "File Size": "326.9 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793691/supply/GSE243665_CCL-185-IG_features.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_CCL-185-IG_matrix.mtx.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Count matrix for CCL-185-IG sample",
+      "File Size": "54.0 Mb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793691/supply/GSE243665_CCL-185-IG_matrix.mtx.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_CRL5868_barcodes.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Cell barcodes for NCI-H1395 (CRL5868) sample",
+      "File Size": "13.5 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793692/supply/GSE243665_CRL5868_barcodes.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_CRL5868_features.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Gene features for NCI-H1395 (CRL5868) sample",
+      "File Size": "326.9 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793692/supply/GSE243665_CRL5868_features.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_CRL5868_matrix.mtx.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Count matrix for NCI-H1395 (CRL5868) sample",
+      "File Size": "16.8 Mb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793692/supply/GSE243665_CRL5868_matrix.mtx.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_DV90_barcodes.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Cell barcodes for DV90 sample",
+      "File Size": "14.4 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793693/supply/GSE243665_DV90_barcodes.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_DV90_features.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Gene features for DV90 sample",
+      "File Size": "288.5 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793693/supply/GSE243665_DV90_features.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_DV90_matrix.mtx.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Count matrix for DV90 sample",
+      "File Size": "24.7 Mb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793693/supply/GSE243665_DV90_matrix.mtx.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_HCC78_barcodes.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Cell barcodes for HCC78 sample",
+      "File Size": "13.4 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793694/supply/GSE243665_HCC78_barcodes.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_HCC78_features.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Gene features for HCC78 sample",
+      "File Size": "326.9 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793694/supply/GSE243665_HCC78_features.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_HCC78_matrix.mtx.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Count matrix for HCC78 sample",
+      "File Size": "27.1 Mb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793694/supply/GSE243665_HCC78_matrix.mtx.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_HTB178_barcodes.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Cell barcodes for NCI-H596 (HTB178) sample",
+      "File Size": "15.5 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793695/supply/GSE243665_HTB178_barcodes.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_HTB178_features.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Gene features for NCI-H596 (HTB178) sample",
+      "File Size": "326.9 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793695/supply/GSE243665_HTB178_features.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_HTB178_matrix.mtx.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Count matrix for NCI-H596 (HTB178) sample",
+      "File Size": "23.7 Mb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793695/supply/GSE243665_HTB178_matrix.mtx.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_PBMCs_barcodes.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Cell barcodes for PBMC sample",
+      "File Size": "2.8 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793696/supply/GSE243665_PBMCs_barcodes.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_PBMCs_features.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Gene features for PBMC sample",
+      "File Size": "326.9 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793696/supply/GSE243665_PBMCs_features.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_PBMCs_matrix.mtx.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Count matrix for PBMC sample",
+      "File Size": "1.0 Mb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793696/supply/GSE243665_PBMCs_matrix.mtx.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_PC9_barcodes.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Cell barcodes for PC9 sample",
+      "File Size": "20.7 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793697/supply/GSE243665_PC9_barcodes.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_PC9_features.tsv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Gene features for PC9 sample",
+      "File Size": "326.9 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793697/supply/GSE243665_PC9_features.tsv.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_PC9_matrix.mtx.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Count matrix for PC9 sample",
+      "File Size": "45.0 Mb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7793nnn/GSM7793697/supply/GSE243665_PC9_matrix.mtx.gz"
+    },
+    {
+      "Study ID": "GSE243665",
+      "File ID": "GSE243665_multi_gex.csv.gz",
+      "Library Preparation ID": "LIBPREP_10X_V3.1",
+      "Sequencing ID": "SEQ_ILLUMINA_NOVASEQ_6000",
+      "File Description": "Cell Ranger multi configuration CSV file",
+      "File Size": "1.2 Kb",
+      "File URL": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243665/suppl/GSE243665_multi_gex.csv.gz"
+    }
+  ],
+  
+  "sra_links": [
+    {
+      "Study ID": "GSE243665",
+      "BioProject Accession": "PRJNA1019356",
+      "BioProject URL": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1019356",
+      "SRA Study URL": "https://trace.ncbi.nlm.nih.gov/Traces/?view=study&acc=SRP462078",
+      "SRA Run Selector": "https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA1019356",
+      "Description": "Raw sequencing data available in SRA"
+    }
+  ],
+  
+  "data_availability_checklist": [
+    {
+      "Study ID": "GSE243665",
+      "Source Code (optional)": "Cell Ranger v7.1.0; configuration file multi_gex.csv.gz available in GEO supplementary files",
+      "UMI Count Matrix (optional)": "Available in GEO as MTX files for each cell line and PBMC: A549 (59.7 Mb), CCL-185-IG (54.0 Mb), CRL5868 (16.8 Mb), DV90 (24.7 Mb), HCC78 (27.1 Mb), HTB178 (23.7 Mb), PBMCs (1.0 Mb), PC9 (45.0 Mb)",
+      "Ensembl IDs (optional)": "Included in features.tsv.gz files for each sample",
+      "Functional Gene Annotations (optional)": "Supporting data at 10.6084/m9.figshare.23284748.v1",
+      "Protein Models (optional)": "Not provided",
+      "Cell Metadata (optional)": "Cell barcodes available in barcodes.tsv.gz files for each sample",
+      "Cluster-Level Normalised Expression Tables (optional)": "Raw count matrices available for user processing",
+      "Other Resource Files (optional)": "GEO: GSE243665; SRA: SRP462078; BioProject: PRJNA1019356; figshare: 10.6084/m9.figshare.23939481.v1, 10.6084/m9.figshare.23284748.v1"
+    }
+  ]
+}
