@@ -177,7 +177,7 @@ processing:
 # Tools and resources (unchanged)
 tools:
   - name: "R Shiny Mixing App"
-    url: "http://aisc.hpc4ai.unito.it:3838/"
+    url: "https://github.com/kendomaniac/BE1"
     description: "Generate controlled mixtures of cell lines at user-defined ratios"
   - name: "Docker Container"
     url: "docker.io/repbioinfo/cellranger.2023.7.1.0"
