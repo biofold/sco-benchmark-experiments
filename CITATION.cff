@@ -45,11 +45,13 @@ references:
     url: "https://www.nature.com/articles/s41597-024-03002-8"
 
 version: "1.0.0"
-doi: "10.6084/m9.figshare.23939481"
+# --- UPDATED: Added Zenodo DOI for the repository itself ---
+doi: "10.5281/zenodo.XXXXXXXX"  # Replace with your actual Zenodo DOI
+# --- Also keep the figshare DOI if it's for a different component ---
 date-released: "2024-02-02"
 license: "CC-BY-4.0"
 license-url: "https://creativecommons.org/licenses/by/4.0/"
-repository-code: "https://github.com/repbioinfo/BE1_benchmark"
+repository-code: "https://github.com/biofold/sco-benchmark-experiments" # Updated to correct repo
 url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243665"
 keywords:
   - "single-cell RNA sequencing"
@@ -90,6 +92,10 @@ identifiers:
   - type: "figshare"
     value: "10.6084/m9.figshare.24744996.v1"
     description: "Code and documentation"
+  # --- OPTIONAL: Add Zenodo as an identifier for the repository ---
+  - type: "Zenodo"
+    value: "10.5281/zenodo.XXXXXXXX"
+    description: "Archived version of this repository with FAIR metadata"
 
 # Preferred citation format
 preferred-citation:
@@ -122,9 +128,10 @@ preferred-citation:
   doi: "10.1038/s41597-024-03002-8"
 
 # How to cite this metadata implementation
-cite-as: "ELIXIR Single Cell Omics Community. (2024). BE1 Benchmark Dataset for Single-Cell RNA Sequencing: Controlled Cancer Heterogeneity FAIR Metadata (v1.0) [Dataset]. GEO: GSE243665; figshare: 10.6084/m9.figshare.23939481"
+# --- UPDATED: Include the Zenodo DOI in the citation suggestion ---
+cite-as: "ELIXIR Single Cell Omics Community. (2024). BE1 Benchmark Dataset for Single-Cell RNA Sequencing: Controlled Cancer Heterogeneity FAIR Metadata (v1.0) [Dataset]. Zenodo: 10.5281/zenodo.XXXXXXXX; GEO: GSE243665; figshare: 10.6084/m9.figshare.23939481"
 
-# Dataset composition
+# Dataset composition (unchanged)
 composition:
   samples: 8
   cell_lines: 7
@@ -159,7 +166,7 @@ composition:
       description: "Peripheral blood mononuclear cells from healthy donor"
       cells: 500
 
-# Processing information
+# Processing information (unchanged)
 processing:
   software: "Cell Ranger v7.1.0"
   reference_genome: "GRCh38-2020-A"
@@ -167,7 +174,7 @@ processing:
   total_reads: "2.46 billion"
   q30_threshold: "≥71.26%"
 
-# Tools and resources
+# Tools and resources (unchanged)
 tools:
   - name: "R Shiny Mixing App"
     url: "http://aisc.hpc4ai.unito.it:3838/"
@@ -176,14 +183,14 @@ tools:
     url: "docker.io/repbioinfo/cellranger.2023.7.1.0"
     description: "Cell Ranger v7.1.0 for reproducing count matrix generation"
 
-# Schema information
+# Schema information (unchanged)
 schema:
   name: "Single Cell Schema"
   version: "0.4"
   standard: "Darwin Core extension for single-cell RNA-seq"
   url: "https://singlecellschemas.org"
 
-# Notes for users
+# Notes for users (unchanged)
 notes: |
   This FAIR metadata implementation accompanies the original BE1 benchmark dataset.
   Please cite both:
