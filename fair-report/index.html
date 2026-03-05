@@ -669,13 +669,14 @@ python scripts/be1_query.py \
         
         <h3>Generated File Structure</h3>
         <pre>
-sco-benchmark-experiments/
+sco-benchmark-fair/
 ├── scrna-schema/
 │   ├── sco-benchmark-experiment-1.json      # Complete BE1 metadata (16 sheets)
 │   └── schema.json                           # Single Cell Schema v0.4 definition
 ├── scripts/
 │   ├── be1_query.py                          # Python query tool
-│   └── be1_fair_visualizer.py                 # Dashboard generator
+│   ├── test_fair_gitrepo.py                  # Python FAIR repo evaluation
+│   └── generate_fair_report.py               # Python FAIR Report Generator
 ├── CITATION.cff                              # Citation metadata
 ├── LICENSE.cff                                # CC BY 4.0 license
 ├── requirements.txt                           # Python dependencies
