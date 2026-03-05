@@ -94,7 +94,7 @@ Reusable:
 * Quality control metrics for each sample  
 * Validation results against CCLE data  
 * Usage notes including R Shiny App for generating controlled mixtures  
-* Clear licensing information (CC BY 4.0)
+* Clear licensing information (CC BY-NC 4.0)
 
 ---
 
@@ -226,7 +226,7 @@ No alerts generated for any cell line during processing. Complete metrics availa
   * FTP links to all supplementary files  
   * SRA Run Selector for raw data  
   * figshare download options  
-* A1.1: Open access under CC BY 4.0 license  
+* A1.1: Open access under CC BY-NC 4.0 license  
 * A1.2: Authentication not required for public data  
 * A2: Metadata remains accessible even if data becomes unavailable
 
@@ -242,7 +242,7 @@ No alerts generated for any cell line during processing. Complete metrics availa
   * Complete experimental protocols  
   * Cell Ranger processing commands  
   * Quality control thresholds  
-* R1.1: Clear usage license (CC BY 4.0)  
+* R1.1: Clear usage license (CC BY-NC 4.0)  
 * R1.2: Detailed provenance including culture conditions, dissociation methods  
 * R1.3: Community standards compliance ensures domain-relevant reuse
 

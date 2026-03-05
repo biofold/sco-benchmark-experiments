@@ -49,7 +49,7 @@ version: "1.0.0"
 doi: "10.5281/zenodo.XXXXXXXX"  # Replace with your actual Zenodo DOI
 # --- Also keep the figshare DOI if it's for a different component ---
 date-released: "2024-02-02"
-license: "CC-BY-4.0"
+license: "CC BY-NC 4.0"
 license-url: "https://creativecommons.org/licenses/by/4.0/"
 repository-code: "https://github.com/biofold/sco-benchmark-experiments" # Updated to correct repo
 url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243665"

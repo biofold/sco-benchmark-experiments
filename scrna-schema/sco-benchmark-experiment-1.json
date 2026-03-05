@@ -17,7 +17,7 @@
       "Created": "2023-12-02",
       "Workflow (optional)": "10X Genomics Chromium Next GEM Single Cell 3' Kit v3.1 with Cell Multiplexing (CellPlex)",
       "Technology": "10X Genomics",
-      "Licence (optional)": "CC BY 4.0"
+      "Licence (optional)": "CC BY-NC 4.0"
     }
   ],
   
@@ -404,7 +404,7 @@
     "description": "FAIR metadata and query tools for the ELIXIR Single Cell Omics BE1 benchmark dataset.",
     "version": "1.0.0",
     "date_released": "2024-03-04",
-    "license": "CC-BY-4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/"
   }
 }
