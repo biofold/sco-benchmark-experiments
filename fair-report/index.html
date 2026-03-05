@@ -594,47 +594,73 @@ python scripts/be1_query.py \
     <!-- FAIR Compliance Evaluation -->
     <section class="section">
         <h2><i class="fas fa-bullseye"></i> FAIR Compliance Evaluation</h2>
-        <p>This repository has been evaluated using comprehensive FAIR principles analysis. <strong>Overall Score: 80/100</strong></p>
+        
+        <div class="score-display">
+            <div class="overall-score">
+                <div class="value">80/100</div>
+                <div class="label">Overall FAIR Score</div>
+            </div>
+        </div>
+        
+        <p>This repository has been evaluated using comprehensive FAIR principles analysis. The assessment identifies specific areas for improvement to enhance Findability, Accessibility, Interoperability, and Reusability.</p>
 
         <div class="grid-2">
             <div>
                 <h3><i class="fas fa-search"></i> Findable (80/100) ✅</h3>
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Rich Metadata: 16 schema sheets with complete annotations</li>
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Persistent Identifiers: GEO:GSE243665, DOI:10.1038/s41597-024-03002-8</li>
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Keywords: EDAM ontology terms, driver mutations</li>
-                    <li><span class="fa-li"><i class="fas fa-exclamation-triangle" style="color: #f39c12;"></i></span>Needs Improvement: Zenodo DOI for repository, GitHub releases</li>
+                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span><strong>Strengths:</strong> Rich metadata with Single Cell Schema v0.4, persistent identifiers (GEO:GSE243665, DOI:10.1038/s41597-024-03002-8).</li>
+                    <li><span class="fa-li"><i class="fas fa-exclamation-triangle" style="color: #f39c12;"></i></span><strong>Improvements Needed (Low Priority, +5 pts each):</strong>
+                        <ul>
+                            <li>Add relevant repository topics on GitHub (e.g., single-cell, rnaseq, benchmark).</li>
+                            <li>Create GitHub releases with version tags for stable versions.</li>
+                            <li>Enable and populate the GitHub documentation wiki.</li>
+                            <li>Include license information in metadata files.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div>
-                <h3><i class="fas fa-unlock-alt"></i> Accessible (80) ✅</h3>
+                <h3><i class="fas fa-unlock-alt"></i> Accessible (80/100) ✅</h3>
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Open Access: CC-BY-4.0 license</li>
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Standard Protocols: HTTPS/FTP access to GEO, SRA, figshare</li>
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Multiple Formats: MTX, HDF5, FASTQ, CSV</li>
-                    <li><span class="fa-li"><i class="fas fa-exclamation-triangle" style="color: #f39c12;"></i></span>Needs Improvement: Direct file checksums in metadata</li>
+                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span><strong>Strengths:</strong> Open access CC-BY-4.0 license, standard protocols (HTTPS/FTP) for data access, multiple data formats (MTX, HDF5, FASTQ).</li>
+                    <li><span class="fa-li"><i class="fas fa-exclamation-triangle" style="color: #f39c12;"></i></span><strong>Improvements Needed (Low Priority, +20 pts):</strong>
+                        <ul>
+                            <li>Specify access rights (open, restricted, closed) explicitly in metadata.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div>
-                <h3><i class="fas fa-exchange-alt"></i> Interoperable (75/100) ✅</h3>
+                <h3><i class="fas fa-exchange-alt"></i> Interoperable (75/100) ⚠️</h3>
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Single Cell Schema v0.4: Darwin Core compliant</li>
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Controlled Vocabularies: Library prep, sequencing parameters</li>
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Cross-References: PMID links, cell line identifiers</li>
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Community Standards: 10X Genomics format compatibility</li>
+                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span><strong>Strengths:</strong> Single Cell Schema v0.4 (Darwin Core compliant), controlled vocabularies for library prep and sequencing, cross-references to PMIDs.</li>
+                    <li><span class="fa-li"><i class="fas fa-exclamation-triangle" style="color: #f39c12;"></i></span><strong>Improvements Needed:</strong>
+                        <ul>
+                            <li><strong>(Low Priority, +15 pts)</strong> Use controlled vocabularies/ontologies more extensively for metadata fields.</li>
+                            <li><strong>(Low Priority, +10 pts)</strong> Include format information (MIME types, file extensions) in metadata.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div>
                 <h3><i class="fas fa-recycle"></i> Reusable (85/100) ✅</h3>
                 <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Provenance: Full processing pipeline (Cell Ranger v7.1.0)</li>
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Contact Information: raffaele.calogero@unito.it</li>
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>Examples: R Shiny App, Python query tool</li>
-                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span>License Info: LICENSE.cff, CITATION.cff</li>
-                    <li><span class="fa-li"><i class="fas fa-exclamation-triangle" style="color: #f39c12;"></i></span>Needs Improvement: QC metrics for stressed cells (NCI-H1395)</li>
+                    <li><span class="fa-li"><i class="fas fa-check-circle" style="color: #27ae60;"></i></span><strong>Strengths:</strong> Full provenance (Cell Ranger v7.1.0 pipeline), clear contact information, usage examples (R Shiny App, Python tool), explicit license and citation files.</li>
+                    <li><span class="fa-li"><i class="fas fa-exclamation-triangle" style="color: #f39c12;"></i></span><strong>Improvements Needed (Low Priority, +5 pts):</strong>
+                        <ul>
+                            <li>Add .github/ISSUE_TEMPLATE/ for structured bug reports and feature requests.</li>
+                        </ul>
+                    </li>
+                    <li><span class="fa-li"><i class="fas fa-exclamation-triangle" style="color: #f39c12;"></i></span><strong>Medium Priority (+10 pts):</strong>
+                         <ul>
+                            <li>Include contact information (email, ORCID) more prominently in metadata.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
+        
+        <p style="margin-top: 20px; font-style: italic;">Note: The scores and improvement items above are specifically for the <code>biofold/sco-benchmark-fair</code> repository. Implementing the listed "Improvements Needed" can raise the overall FAIR score to 100/100.</p>
     </section>
 
     <!-- Metadata Architecture -->
