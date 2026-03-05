@@ -1604,7 +1604,7 @@ class FAIRVisualizer:
                 <h4><strong>Transforming ELIXIR SCO benchmark experiments dataset into FAIR-compliant, machine learning-ready resource</strong></h4>
                 <div>
                     <a href="../index.html" class="dashboard-link">
-                        <i class="fas fa-home"></i> PPI Benchmark FAIR
+                        <i class="fas fa-home"></i> SCO Benchmark FAIR
                     </a>
                     <a href="/ppi-benchmark-fair/fair-report/index.html" class="dashboard-link">
                         <i class="fas fa-bullseye"></i> FAIRification 
@@ -1613,7 +1613,7 @@ class FAIRVisualizer:
                     <a href="/ppi-benchmark-fair/ml-report/index.html" class="dashboard-link">
                         <i class="fa-solid fa-brain"></i> Machine Learning
                     </a>
-                
+                    -->
                     <a href="https://github.com/biofold/sco-benchmark-experiments" class="dashboard-link" target="_blank">
                         <i class="fab fa-github"></i> Repository
                     </a>
