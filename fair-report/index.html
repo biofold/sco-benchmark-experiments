@@ -602,8 +602,8 @@ python scripts/be1_query.py \
             </div>
         </div>
         
-        <p>This repository has been evaluated using comprehensive FAIR principles analysis. The assessment identifies specific areas for improvement to enhance Findability, Accessibility, Interoperability, and Reusability.</p>
-
+        <p>This repository has been evaluated using comprehensive FAIR principles analysis. <strong>Overall Score: 80/100</strong></p>
+        
         <div class="grid-2">
             <div>
                 <h3><i class="fas fa-search"></i> Findable (80/100) ✅</h3>
@@ -809,30 +809,172 @@ python scripts/be1_query.py \
     <section class="section">
         <h2><i class="fas fa-road"></i> FAIR Improvements Roadmap</h2>
         
-        <p>Based on the FAIR assessment (92/100), here are planned improvements:</p>
+        <p>Based on the FAIR assessment (80/100), here are prioritized improvements to reach a higher score. Each item includes potential point gain toward the target of 100/100.</p>
         
-        <h3>Low Priority (Potential +5 points)</h3>
-        <ul>
-            <li>Add repository topics on GitHub settings (single-cell, rnaseq, benchmark, fair-data)</li>
-            <li>Create GitHub releases with version tags</li>
-            <li>Add issue templates for structured reporting</li>
-        </ul>
+        <div class="grid-2">
+            <div>
+                <h3><i class="fas fa-search" style="color: var(--primary-color);"></i> Findable Improvements</h3>
+                <table style="width: 100%; margin-top: 10px;">
+                    <thead>
+                        <tr>
+                            <th>Priority</th>
+                            <th>Action</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="badge" style="background-color: #27ae60; color: white; padding: 3px 8px;">Low</span></td>
+                            <td>Add relevant repository topics to GitHub settings (single-cell, rnaseq, benchmark, fair-data, cancer, scrna-seq)</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge" style="background-color: #27ae60; color: white; padding: 3px 8px;">Low</span></td>
+                            <td>Create GitHub releases with version tags for stable versions (v1.0.0, v1.1.0)</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge" style="background-color: #27ae60; color: white; padding: 3px 8px;">Low</span></td>
+                            <td>Enable and populate GitHub Pages documentation wiki</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge" style="background-color: #27ae60; color: white; padding: 3px 8px;">Low</span></td>
+                            <td>Include license information in metadata files</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td><span style="font-weight: bold;">Subtotal Findable</span></td>
+                            <td></td>
+                            <td><strong>+20</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div>
+                <h3><i class="fas fa-unlock-alt" style="color: var(--primary-color);"></i> Accessible Improvements</h3>
+                <table style="width: 100%; margin-top: 10px;">
+                    <thead>
+                        <tr>
+                            <th>Priority</th>
+                            <th>Action</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="badge" style="background-color: #27ae60; color: white; padding: 3px 8px;">Low</span></td>
+                            <td>Specify access rights (open, restricted, closed) explicitly in metadata</td>
+                            <td>+20</td>
+                        </tr>
+                        <tr>
+                            <td><span style="font-weight: bold;">Subtotal Accessible</span></td>
+                            <td></td>
+                            <td><strong>+20</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div>
+                <h3><i class="fas fa-exchange-alt" style="color: var(--primary-color);"></i> Interoperable Improvements</h3>
+                <table style="width: 100%; margin-top: 10px;">
+                    <thead>
+                        <tr>
+                            <th>Priority</th>
+                            <th>Action</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="badge" style="background-color: #27ae60; color: white; padding: 3px 8px;">Low</span></td>
+                            <td>Use controlled vocabularies/ontologies more extensively for metadata fields</td>
+                            <td>+15</td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge" style="background-color: #27ae60; color: white; padding: 3px 8px;">Low</span></td>
+                            <td>Include format information (MIME types, file extensions) in metadata</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td><span style="font-weight: bold;">Subtotal Interoperable</span></td>
+                            <td></td>
+                            <td><strong>+25</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div>
+                <h3><i class="fas fa-recycle" style="color: var(--primary-color);"></i> Reusable Improvements</h3>
+                <table style="width: 100%; margin-top: 10px;">
+                    <thead>
+                        <tr>
+                            <th>Priority</th>
+                            <th>Action</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="badge" style="background-color: #f39c12; color: white; padding: 3px 8px;">Medium</span></td>
+                            <td>Include contact information (email, ORCID) more prominently in metadata</td>
+                            <td>+10</td>
+                        </tr>
+                        <tr>
+                            <td><span class="badge" style="background-color: #27ae60; color: white; padding: 3px 8px;">Low</span></td>
+                            <td>Add .github/ISSUE_TEMPLATE/ for structured bug reports and feature requests</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td><span style="font-weight: bold;">Subtotal Reusable</span></td>
+                            <td></td>
+                            <td><strong>+15</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
         
-        <h3>Medium Priority (Potential +20 points)</h3>
-        <ul>
-            <li>Obtain Zenodo DOI for repository archive (currently placeholder)</li>
-            <li>Add file checksums (MD5) directly in metadata JSON</li>
-            <li>Include format information (MIME types) for all distribution files</li>
-        </ul>
+        <div style="background: linear-gradient(135deg, var(--primary-color), #4689a3); color: white; padding: 20px; border-radius: 12px; margin-top: 30px; text-align: center;">
+            <div style="font-size: 1.8rem; font-weight: bold; margin-bottom: 10px;">Total Potential Improvement: +80 points</div>
+            <div style="font-size: 1.2rem;">Current Score: 80/100 → Target Score: 100/100</div>
+        </div>
         
-        <h3>High Priority (Potential +15 points)</h3>
-        <ul>
-            <li>Add QC metrics for stressed cells (NCI-H1395 post-QC reduction)</li>
-            <li>Include ambient RNA and doublet rate estimates in metadata</li>
-            <li>Document batch correction strategies</li>
-        </ul>
+        <h3 style="margin-top: 30px;"><i class="fas fa-lightbulb"></i> Implementation Priorities</h3>
+        <div class="feature-highlights" style="grid-template-columns: repeat(3, 1fr);">
+            <div class="feature-card" style="border-right-color: #e74c3c;">
+                <h4><i class="fas fa-exclamation-triangle" style="color: #e74c3c;"></i> Quick Wins (Low Effort)</h4>
+                <ul style="margin-left: 20px;">
+                    <li>Add repository topics</li>
+                    <li>Create GitHub releases</li>
+                    <li>Add issue templates</li>
+                    <li>Include format information</li>
+                </ul>
+            </div>
+            <div class="feature-card" style="border-right-color: #f39c12;">
+                <h4><i class="fas fa-chart-line" style="color: #f39c12;"></i> Medium Impact</h4>
+                <ul style="margin-left: 20px;">
+                    <li>Contact information in metadata</li>
+                    <li>Enable documentation wiki</li>
+                    <li>License information in metadata</li>
+                </ul>
+            </div>
+            <div class="feature-card" style="border-right-color: #27ae60;">
+                <h4><i class="fas fa-trophy" style="color: #27ae60;"></i> High Value</h4>
+                <ul style="margin-left: 20px;">
+                    <li>Access rights specification (+20 pts)</li>
+                    <li>Controlled vocabularies (+15 pts)</li>
+                    <li>Zenodo DOI registration</li>
+                </ul>
+            </div>
+        </div>
         
-        <p><strong>Target FAIR Score: 100/100 (Currently: 92/100)</strong></p>
+        <p style="margin-top: 20px; font-style: italic; text-align: center;">
+            Implementing all improvements will raise the FAIR score from 80/100 to 100/100, making the repository fully FAIR-compliant.
+        </p>
     </section>
 
     <!-- License and Attribution -->
