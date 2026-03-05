@@ -1727,7 +1727,7 @@ class FAIRVisualizer:
                 </div>
                 <div class="footer-content" style="margin-top:25px;">
                     <a href="https://github.com/biofold/ppi-benchmark-fair">
-                    <img src="https://img.shields.io/badge/FAIR_Score-77.5%2F100-brightgreen" alt="FAIR Score: 77.5/100"></a>
+                    <img src="https://img.shields.io/badge/FAIR_Score-80.0%2F100-brightgreen" alt="FAIR Score: 80.0/100"></a>
                     <a href="https://creativecommons.org/licenses/by/4.0/">
                     <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
                     <a href="https://doi.org/10.5281/zenodo.XXXXXXX">
