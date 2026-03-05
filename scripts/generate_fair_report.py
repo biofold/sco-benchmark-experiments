@@ -1600,8 +1600,10 @@ class FAIRVisualizer:
         html_parts.append(f"""
         <header>
             <div class="header-content">
-                <h1><strong>FAIR Analysis Report</strong></h1>
-                <h4><strong>Transforming ELIXIR SCO benchmark experiments into FAIR-compliant, machine learning-ready resource/strong></h4>
+                <div class="footer-content">
+                    Enhancing the FAIRness of the ELIXIR SCO Benchmark Experiments for Cancer Heterogeneity Analysis
+                </div>
+                
                 <div>
                     <a href="../index.html" class="dashboard-link">
                         <i class="fas fa-home"></i> SCO Benchmark FAIR
