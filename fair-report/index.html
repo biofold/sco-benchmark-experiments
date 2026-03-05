@@ -467,6 +467,52 @@
         .fa-ul {
             margin-left: 1.8rem;
         }
+            /* Lists */
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .fair-section {
+            margin: 25px 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-right: 4px solid;
+        }
+
+        .fair-section.findable { background-color: #e8e8e8; border-right-color: #e74c3c; }
+        .fair-section.accessible { background-color: #e8e8e8; border-right-color: #3498db; }
+        .fair-section.interoperable { background-color: #e8e8e8; border-right-color: #9b59b6; }
+        .fair-section.reusable { background-color: #e8e8e8; border-right-color: #27ae60; }
+
+        .fair-score {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .fair-checklist li {
+            list-style-type: none;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .fair-checklist li:before {
+            content: "✅";
+            position: absolute;
+            left: 0;
+        }
+
+        .fair-checklist li.needs-improvement:before {
+            content: "⚠️";
+        }
+
     </style>
 </head>
 <body>
