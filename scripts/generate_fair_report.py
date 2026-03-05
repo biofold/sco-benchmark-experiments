@@ -1606,15 +1606,15 @@ class FAIRVisualizer:
                     <a href="../index.html" class="dashboard-link">
                         <i class="fas fa-home"></i> SCO Benchmark FAIR
                     </a>
-                    <a href="/sco-benchmark-experiments/fair-report/index.html" class="dashboard-link">
+                    <a href="/sco-benchmark-fair/fair-report/index.html" class="dashboard-link">
                         <i class="fas fa-bullseye"></i> FAIRification 
                     </a>
                     <!--
-                    <a href="/sco-benchmark-experiments/ml-report/index.html" class="dashboard-link">
+                    <a href="/sco-benchmark-fair/ml-report/index.html" class="dashboard-link">
                         <i class="fa-solid fa-brain"></i> Machine Learning
                     </a>
                     -->
-                    <a href="https://github.com/biofold/sco-benchmark-experiments" class="dashboard-link" target="_blank">
+                    <a href="https://github.com/biofold/sco-benchmark-fair" class="dashboard-link" target="_blank">
                         <i class="fab fa-github"></i> Repository
                     </a>
                 </div>
@@ -1726,7 +1726,7 @@ class FAIRVisualizer:
                     Enhancing the FAIRness of the ELIXIR SCO Benchmark Experiments for Cancer Heterogeneity Analysis
                 </div>
                 <div class="footer-content" style="margin-top:25px;">
-                    <a href="https://github.com/biofold/sco-benchmark-experiments">
+                    <a href="https://github.com/biofold/sco-benchmark-fair" target="_blank">
                     <img src="https://img.shields.io/badge/FAIR_Score-80.0%2F100-brightgreen" alt="FAIR Score: 80.0/100"></a>
                     <a href="https://creativecommons.org/licenses/by/4.0/">
                     <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
