@@ -1370,7 +1370,7 @@ def main():
     
     # List of repositories to compare (add your bioschema repository here)
     REPOS_TO_COMPARE = [
-        "https://github.com/biofold/sco-benchmark-experiments",
+        "https://github.com/biofold/sco-benchmark-fair",
         "https://github.com/elixir-europe/sco-community",
         "https://github.com/kendomaniac/B1",
         # Add more repositories with metadata files
