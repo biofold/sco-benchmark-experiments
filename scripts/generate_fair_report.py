@@ -1601,7 +1601,7 @@ class FAIRVisualizer:
         <header>
             <div class="header-content">
                 <h1><strong>FAIR Analysis Report</strong></h1>
-                <h4><strong>Transforming ELIXIR 3D-Bioinfo PPI dataset into FAIR-compliant, machine learning-ready resource</strong></h4>
+                <h4><strong>Transforming ELIXIR SCO benchmark experiments dataset into FAIR-compliant, machine learning-ready resource</strong></h4>
                 <div>
                     <a href="../index.html" class="dashboard-link">
                         <i class="fas fa-home"></i> PPI Benchmark FAIR
@@ -1612,7 +1612,7 @@ class FAIRVisualizer:
                     <a href="/ppi-benchmark-fair/ml-report/index.html" class="dashboard-link">
                         <i class="fa-solid fa-brain"></i> Machine Learning
                     </a>
-                    <a href="https://github.com/biofold/ppi-benchmark-fair" class="dashboard-link" target="_blank">
+                    <a href="https://github.com/biofold/sco-benchmark-experiments" class="dashboard-link" target="_blank">
                         <i class="fab fa-github"></i> Repository
                     </a>
                 </div>
@@ -1725,17 +1725,21 @@ class FAIRVisualizer:
                 </div>
                 <div class="footer-content" style="margin-top:25px;">
                     <a href="https://github.com/biofold/ppi-benchmark-fair">
-                    <img src="https://img.shields.io/badge/FAIR_Score-87.5%2F100-brightgreen" alt="FAIR Score: 87.5/100"></a>
+                    <img src="https://img.shields.io/badge/FAIR_Score-87.5%2F100-brightgreen" alt="FAIR Score: 77.5/100"></a>
                     <a href="https://creativecommons.org/licenses/by/4.0/">
-                    <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0"></a>
+                    <img src="https://img.shields.io/badge/License-CC%20BY-NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
                     <a href="https://doi.org/10.5281/zenodo.XXXXXXX">
                     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg" alt="DOI"></a>
                     <a href="https://www.python.org/">
-                    <img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg" alt="Python 3.8+"></a>
-                    <a href="https://schema.org/">
-                    <img src="https://img.shields.io/badge/Metadata-Schema.org%2BBioschemas-blue" alt="Schema.org+Bioschemas"></a>
+                    <img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg" alt="Python 3.9+"></a>
+                    <a href="https://singlecellschemas.org/">
+                    <img src="https://img.shields.io/badge/Schema-Single%20Cell%20v0.4-purple" alt="Schema v0.4"></a>
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243665">
+                    <img src="https://img.shields.io/badge/GEO-GSE243665-blue" alt="GEO: GSE243665"></a>
+                    <!---
                     <a href="https://mlcommons.org/croissant/">
                     <img src="https://img.shields.io/badge/ML-Croissant_1.0-yellow" alt="MLCommons Croissant"></a>
+                    --->
                 </div>
                 <div class="copyright">
                     <p>FAIR Analysis Report • Generated on: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p>
